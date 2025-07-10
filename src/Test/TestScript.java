@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import Pages.CheckOutOverviewPage;
 import Pages.LoginPage;
@@ -35,10 +36,11 @@ public class TestScript {
 	}
 	
 	//login to products page
+	@Parameters({"userName", "passWord"})
 	@Test
-	public void TestALogin() {
+	public void TestALogin(String username, String password) {
 		loginPage = new LoginPage(driver);
-		productsPage = loginPage.performLogin("standard_user", "secret_sauce");
+		productsPage = loginPage.performLogin(username, password);
 	}
 	
 	//products page to selected product page

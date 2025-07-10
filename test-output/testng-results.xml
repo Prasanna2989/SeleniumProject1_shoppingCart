@@ -2,28 +2,40 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-10T14:29:45 AEST" name="Suite" finished-at="2025-07-10T14:29:56 AEST" duration-ms="10431">
+  <suite started-at="2025-07-10T16:20:32 AEST" name="Suite" finished-at="2025-07-10T16:20:38 AEST" duration-ms="6040">
     <groups>
     </groups>
-    <test started-at="2025-07-10T14:29:45 AEST" name="Test" finished-at="2025-07-10T14:29:56 AEST" duration-ms="10431">
+    <test started-at="2025-07-10T16:20:32 AEST" name="Test" finished-at="2025-07-10T16:20:38 AEST" duration-ms="6040">
       <class name="Test.TestScript">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Test.TestScript@185a6e9]" started-at="2025-07-10T14:29:45 AEST" name="beforeTest" finished-at="2025-07-10T14:29:54 AEST" duration-ms="9031" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Test.TestScript@139982de]" started-at="2025-07-10T16:20:32 AEST" name="beforeTest" finished-at="2025-07-10T16:20:37 AEST" duration-ms="4535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="TestALogin()[pri:0, instance:Test.TestScript@185a6e9]" started-at="2025-07-10T14:29:55 AEST" name="TestALogin" finished-at="2025-07-10T14:29:55 AEST" duration-ms="499" status="PASS">
+        <test-method signature="TestALogin(java.lang.String,java.lang.String)[pri:0, instance:Test.TestScript@139982de]" started-at="2025-07-10T16:20:37 AEST" name="TestALogin" finished-at="2025-07-10T16:20:37 AEST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestALogin -->
-        <test-method signature="TestBShoppingCart()[pri:0, instance:Test.TestScript@185a6e9]" started-at="2025-07-10T14:29:55 AEST" name="TestBShoppingCart" finished-at="2025-07-10T14:29:55 AEST" duration-ms="313" status="PASS">
+        <test-method signature="TestBShoppingCart()[pri:0, instance:Test.TestScript@139982de]" started-at="2025-07-10T16:20:37 AEST" name="TestBShoppingCart" finished-at="2025-07-10T16:20:37 AEST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestBShoppingCart -->
-        <test-method signature="TestCCheckoutInfo()[pri:0, instance:Test.TestScript@185a6e9]" started-at="2025-07-10T14:29:55 AEST" name="TestCCheckoutInfo" finished-at="2025-07-10T14:29:56 AEST" duration-ms="413" status="PASS">
+        <test-method signature="TestCCheckoutInfo()[pri:0, instance:Test.TestScript@139982de]" started-at="2025-07-10T16:20:37 AEST" name="TestCCheckoutInfo" finished-at="2025-07-10T16:20:38 AEST" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCCheckoutInfo -->
-        <test-method signature="TestDChkOutOverview()[pri:0, instance:Test.TestScript@185a6e9]" started-at="2025-07-10T14:29:56 AEST" name="TestDChkOutOverview" finished-at="2025-07-10T14:29:56 AEST" duration-ms="116" status="PASS">
+        <test-method signature="TestDChkOutOverview()[pri:0, instance:Test.TestScript@139982de]" started-at="2025-07-10T16:20:38 AEST" name="TestDChkOutOverview" finished-at="2025-07-10T16:20:38 AEST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestDChkOutOverview -->
